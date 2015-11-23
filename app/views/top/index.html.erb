@@ -17,5 +17,7 @@
       <%= f.submit "質問する" %>
     <% end %>
   </div>
-  <%= render @feed_contents %>
+  <%= render @feed_contents_resource %>
+
+  <%= paginate(@feed_contents) %>
 <% end %>
