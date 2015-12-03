@@ -48,8 +48,8 @@ Rails.application.configure do
     :address => "smtp.gmail.com",
     :port => 587,
     :domain => 'smtp.gmail.com',
-    :user_name => "kyo199333@gmail.com", #ご自身のgmailアドレス
-    :password => "19930423gmail", #ご自身のgmailアドレスのパスワード
+    :user_name => "", #ご自身のgmailアドレス
+    :password => "", #ご自身のgmailアドレスのパスワード
     :authentication => 'login',
   }
 end
